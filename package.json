@@ -1,0 +1,15 @@
+{
+  "name": "craxxyproxy",
+  "version": "1.0.0",
+  "description": "CraxxyProxy - Proxy contrôlé éducatif",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6",
+    "express-rate-limit": "^6.7.0",
+    "helmet": "^6.0.1"
+  }
+}
