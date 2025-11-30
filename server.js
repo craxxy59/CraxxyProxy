@@ -14,7 +14,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 // Whitelist — ajoute tes domaines ici
 const WHITELIST = [
   "example.com",
-  "www.example.com"
+  "www.example.com",
+  "google.com",
+  "poki.com"
 ];
 
 // Rate limiting
